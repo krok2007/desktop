@@ -1,0 +1,13 @@
+curl -i -H "Token: bO7PwP4DieQ7oxY8wHgz2j8AcA2glgdubzY8" \
+        -H "Content-Type: application/json" \
+        "https://cliniccards.com/api/visits"\
+        --request POST \
+
+--data  '{"status": "PLANNED",
+        "patient_id": 1066385,
+        "cabinet_id": "4090",
+        "doctor_id": "17597",
+        "note": "Addition info for visit",
+        "date": "2020-10-21",
+        "time_start": "10:00",
+        "time_end": "11:00"}'
